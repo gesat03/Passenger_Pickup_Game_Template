@@ -1,0 +1,409 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0194c726387493f4f804a10e2dde3cd0, type: 3}
+  m_Name: Level2
+  m_EditorClassIdentifier: 
+  gridSizeX: 7
+  gridSizeY: 7
+  cells:
+  - CellID: 0
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 1
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 1
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 2
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 1
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 3
+    Value: 2
+    IsSelected: 1
+    IsClosed: 0
+    IsBorder: 1
+    WagonColor: 5
+    PassengerValue: 0400000004000000
+    PassengerColor: 0400000001000000
+  - CellID: 4
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 1
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 5
+    Value: 2
+    IsSelected: 1
+    IsClosed: 0
+    IsBorder: 1
+    WagonColor: 5
+    PassengerValue: 0400000004000000
+    PassengerColor: 0300000000000000
+  - CellID: 6
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 7
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 1
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 1
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 2
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 3
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 4
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 5
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 13
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 1
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 14
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 1
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 6
+    Value: 3
+    IsSelected: 1
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 4
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 7
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 8
+    Value: 1
+    IsSelected: 1
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 3
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 9
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 10
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 20
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 1
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 21
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 1
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 11
+    Value: 3
+    IsSelected: 1
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 1
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 12
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 13
+    Value: 1
+    IsSelected: 1
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 3
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 14
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 15
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 27
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 1
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 28
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 1
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 16
+    Value: 3
+    IsSelected: 1
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 4
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 17
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 18
+    Value: 1
+    IsSelected: 1
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 3
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 19
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 20
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 0
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 34
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 1
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 35
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 1
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 21
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 22
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 23
+    Value: 2
+    IsSelected: 1
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 0
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 24
+    Value: 2
+    IsSelected: 1
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 0
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 25
+    Value: 2
+    IsSelected: 1
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 0
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 41
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 1
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 42
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 43
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 1
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 44
+    Value: 2
+    IsSelected: 1
+    IsClosed: 0
+    IsBorder: 1
+    WagonColor: 5
+    PassengerValue: 0400000004000000
+    PassengerColor: 0000000003000000
+  - CellID: 45
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 1
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 46
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 1
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 47
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 1
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
+  - CellID: 48
+    Value: 0
+    IsSelected: 0
+    IsClosed: 0
+    IsBorder: 0
+    WagonColor: 5
+    PassengerValue: 
+    PassengerColor: 
